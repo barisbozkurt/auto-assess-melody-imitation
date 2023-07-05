@@ -1,7 +1,7 @@
 
 # Automatic assessment for melodic pattern imitations
 
-This repository contains code for automatic assessment for melodic pattern imitations. Data used in the machine experiments is available here: [**MAST Rhythm Data Set**](https://zenodo.org/record/8007358) Please refer to the paper below for a detailed description of the tools, experiments and experiment results.
+This repository contains code for automatic assessment for melodic pattern imitations. Data used in the machine experiments is available here: [**MAST Melody Dataset**](https://zenodo.org/record/8007358) Please refer to the paper below for a detailed description of the tools, experiments and experiment results.
 
 ```latex
 @article{BozkurtBaysal2023,
@@ -24,7 +24,7 @@ The repo contains the following folders:
 *   'scripts/data_processing' folder contains all preprocessing and feature extraction code that prepares tabular data for machine learning experiments. 
 *   'scripts/ML_experiments' folder contains code for machine learning experiments 
 
-To run all steps from scratch run runFromScratch.py from its folder
+To run all steps from scratch, run runFromScratch.py from its folder
 
 # Acknowledgment
 
