@@ -1,0 +1,474 @@
+--------------------
+RUNNING TESTS FOR ../../../data/annotations/melody_data4ML_2Asli
+Cross-validation (on splits with respect to melody group)
+Running test for LogisticRegression
+Validation split question ids:[34 32 13 15 24  3 26] train shape:(65738, 30) valid shape:(11639, 30) val-accuracy:0.6704184208265315
+Validation split question ids:[ 4  2 30 28 22  8 17] train shape:(50429, 30) valid shape:(26948, 30) val-accuracy:0.6439438919400327
+Validation split question ids:[21  6 10  0 11 19 14] train shape:(61416, 30) valid shape:(15961, 30) val-accuracy:0.6074180815738363
+Validation split question ids:[31 33 20  7 16  9 12] train shape:(66137, 30) valid shape:(11240, 30) val-accuracy:0.6223309608540926
+Validation split question ids:[ 1 18 25  5 23 27 29] train shape:(65788, 30) valid shape:(11589, 30) val-accuracy:0.5694192769005091
+LogisticRegression	, scores:[0.67041842 0.64394389 0.60741808 0.62233096 0.56941928]	mean:0.6227061264190004
+--------------LogisticRegression training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.72      0.75      0.74      2312
+           2       0.50      0.44      0.47      2312
+           3       0.49      0.33      0.39      2312
+           4       0.62      0.87      0.73      2312
+
+    accuracy                           0.60      9248
+   macro avg       0.58      0.60      0.58      9248
+weighted avg       0.58      0.60      0.58      9248
+
+Running test for RandomForest
+Validation split question ids:[34 32 13 15 24  3 26] train shape:(65738, 30) valid shape:(11639, 30) val-accuracy:0.6709339290317038
+Validation split question ids:[ 4  2 30 28 22  8 17] train shape:(50429, 30) valid shape:(26948, 30) val-accuracy:0.637969422591658
+Validation split question ids:[21  6 10  0 11 19 14] train shape:(61416, 30) valid shape:(15961, 30) val-accuracy:0.6046613620700457
+Validation split question ids:[31 33 20  7 16  9 12] train shape:(66137, 30) valid shape:(11240, 30) val-accuracy:0.6179715302491103
+Validation split question ids:[ 1 18 25  5 23 27 29] train shape:(65788, 30) valid shape:(11589, 30) val-accuracy:0.5764949521097592
+RandomForest	, scores:[0.67093393 0.63796942 0.60466136 0.61797153 0.57649495]	mean:0.6216062392104554
+--------------RandomForest training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.59      0.87      0.70      2312
+           2       0.45      0.24      0.31      2312
+           3       0.44      0.28      0.34      2312
+           4       0.62      0.85      0.72      2312
+
+    accuracy                           0.56      9248
+   macro avg       0.53      0.56      0.52      9248
+weighted avg       0.53      0.56      0.52      9248
+
+Running test for XGBoost
+Validation split question ids:[34 32 13 15 24  3 26] train shape:(65738, 30) valid shape:(11639, 30) val-accuracy:0.666895781424521
+Validation split question ids:[ 4  2 30 28 22  8 17] train shape:(50429, 30) valid shape:(26948, 30) val-accuracy:0.6413462965711741
+Validation split question ids:[21  6 10  0 11 19 14] train shape:(61416, 30) valid shape:(15961, 30) val-accuracy:0.6103627592256125
+Validation split question ids:[31 33 20  7 16  9 12] train shape:(66137, 30) valid shape:(11240, 30) val-accuracy:0.6218861209964412
+Validation split question ids:[ 1 18 25  5 23 27 29] train shape:(65788, 30) valid shape:(11589, 30) val-accuracy:0.5702821641211494
+XGBoost	, scores:[0.66689578 0.6413463  0.61036276 0.62188612 0.57028216]	mean:0.6221546244677796
+--------------XGBoost training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.57      0.90      0.70      2312
+           2       0.49      0.24      0.32      2312
+           3       0.44      0.27      0.33      2312
+           4       0.61      0.81      0.69      2312
+
+    accuracy                           0.55      9248
+   macro avg       0.53      0.55      0.51      9248
+weighted avg       0.53      0.55      0.51      9248
+
+Running test for SVM
+Validation split question ids:[34 32 13 15 24  3 26] train shape:(65738, 30) valid shape:(11639, 30) val-accuracy:0.6692155683477962
+Validation split question ids:[ 4  2 30 28 22  8 17] train shape:(50429, 30) valid shape:(26948, 30) val-accuracy:0.6428677452872198
+Validation split question ids:[21  6 10  0 11 19 14] train shape:(61416, 30) valid shape:(15961, 30) val-accuracy:0.6079819560177934
+Validation split question ids:[31 33 20  7 16  9 12] train shape:(66137, 30) valid shape:(11240, 30) val-accuracy:0.6190391459074733
+Validation split question ids:[ 1 18 25  5 23 27 29] train shape:(65788, 30) valid shape:(11589, 30) val-accuracy:0.5720079385624299
+SVM	, scores:[0.66921557 0.64286775 0.60798196 0.61903915 0.57200794]	mean:0.6222224708245425
+--------------SVM training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.59      0.83      0.69      2312
+           2       0.46      0.30      0.37      2312
+           3       0.42      0.26      0.32      2312
+           4       0.61      0.80      0.69      2312
+
+    accuracy                           0.55      9248
+   macro avg       0.52      0.55      0.52      9248
+weighted avg       0.52      0.55      0.52      9248
+
+--------------------
+RUNNING TESTS FOR ../../../data/annotations/melody_data4ML_4Cihan
+Cross-validation (on splits with respect to melody group)
+Running test for LogisticRegression
+Validation split question ids:[32 34  0 14 17 28 30] train shape:(59466, 30) valid shape:(12104, 30) val-accuracy:0.7020819563780568
+Validation split question ids:[ 2  4 24 26  6 12 18] train shape:(57575, 30) valid shape:(13995, 30) val-accuracy:0.5784923186852448
+Validation split question ids:[10 22 20  7 13 15  1] train shape:(53630, 30) valid shape:(17940, 30) val-accuracy:0.6758082497212932
+Validation split question ids:[16 35 33  9 19 11 21] train shape:(60425, 30) valid shape:(11145, 30) val-accuracy:0.6566173171825931
+Validation split question ids:[23  8 31 29  5 27 25] train shape:(57989, 30) valid shape:(13581, 30) val-accuracy:0.7378690818054635
+LogisticRegression	, scores:[0.70208196 0.57849232 0.67580825 0.65661732 0.73786908]	mean:0.6701737847545303
+--------------LogisticRegression training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.60      0.62      0.61       909
+           2       0.38      0.34      0.36       909
+           3       0.43      0.29      0.35       909
+           4       0.54      0.75      0.63       909
+
+    accuracy                           0.50      3636
+   macro avg       0.49      0.50      0.49      3636
+weighted avg       0.49      0.50      0.49      3636
+
+Running test for RandomForest
+Validation split question ids:[32 34  0 14 17 28 30] train shape:(59466, 30) valid shape:(12104, 30) val-accuracy:0.7000991407799074
+Validation split question ids:[ 2  4 24 26  6 12 18] train shape:(57575, 30) valid shape:(13995, 30) val-accuracy:0.5753483386923901
+Validation split question ids:[10 22 20  7 13 15  1] train shape:(53630, 30) valid shape:(17940, 30) val-accuracy:0.6719063545150502
+Validation split question ids:[16 35 33  9 19 11 21] train shape:(60425, 30) valid shape:(11145, 30) val-accuracy:0.6583221175414984
+Validation split question ids:[23  8 31 29  5 27 25] train shape:(57989, 30) valid shape:(13581, 30) val-accuracy:0.7381636109270304
+RandomForest	, scores:[0.70009914 0.57534834 0.67190635 0.65832212 0.73816361]	mean:0.6687679124911753
+--------------RandomForest training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.53      0.79      0.63       909
+           2       0.37      0.29      0.32       909
+           3       0.48      0.07      0.12       909
+           4       0.55      0.85      0.66       909
+
+    accuracy                           0.50      3636
+   macro avg       0.48      0.50      0.43      3636
+weighted avg       0.48      0.50      0.43      3636
+
+Running test for XGBoost
+Validation split question ids:[32 34  0 14 17 28 30] train shape:(59466, 30) valid shape:(12104, 30) val-accuracy:0.7004296100462657
+Validation split question ids:[ 2  4 24 26  6 12 18] train shape:(57575, 30) valid shape:(13995, 30) val-accuracy:0.5830653804930332
+Validation split question ids:[10 22 20  7 13 15  1] train shape:(53630, 30) valid shape:(17940, 30) val-accuracy:0.6748606465997771
+Validation split question ids:[16 35 33  9 19 11 21] train shape:(60425, 30) valid shape:(11145, 30) val-accuracy:0.6584118438761777
+Validation split question ids:[23  8 31 29  5 27 25] train shape:(57989, 30) valid shape:(13581, 30) val-accuracy:0.7397835210956484
+XGBoost	, scores:[0.70042961 0.58306538 0.67486065 0.65841184 0.73978352]	mean:0.6713102004221805
+--------------XGBoost training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.47      0.82      0.60       909
+           2       0.38      0.23      0.28       909
+           3       0.49      0.10      0.17       909
+           4       0.56      0.80      0.65       909
+
+    accuracy                           0.49      3636
+   macro avg       0.47      0.49      0.43      3636
+weighted avg       0.47      0.49      0.43      3636
+
+Running test for SVM
+Validation split question ids:[32 34  0 14 17 28 30] train shape:(59466, 30) valid shape:(12104, 30) val-accuracy:0.6978684732319894
+Validation split question ids:[ 2  4 24 26  6 12 18] train shape:(57575, 30) valid shape:(13995, 30) val-accuracy:0.5834941050375134
+Validation split question ids:[10 22 20  7 13 15  1] train shape:(53630, 30) valid shape:(17940, 30) val-accuracy:0.6685061315496098
+Validation split question ids:[16 35 33  9 19 11 21] train shape:(60425, 30) valid shape:(11145, 30) val-accuracy:0.6609241812471961
+Validation split question ids:[23  8 31 29  5 27 25] train shape:(57989, 30) valid shape:(13581, 30) val-accuracy:0.7375745526838966
+SVM	, scores:[0.69786847 0.58349411 0.66850613 0.66092418 0.73757455]	mean:0.6696734887500411
+--------------SVM training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.56      0.72      0.63       909
+           2       0.40      0.36      0.38       909
+           3       0.49      0.17      0.25       909
+           4       0.50      0.75      0.60       909
+
+    accuracy                           0.50      3636
+   macro avg       0.49      0.50      0.46      3636
+weighted avg       0.49      0.50      0.46      3636
+
+--------------------
+RUNNING TESTS FOR ../../../data/annotations/melody_data4ML_majority
+Cross-validation (on splits with respect to melody group)
+Running test for LogisticRegression
+Validation split question ids:[13  3  4  2 32  0 28] train shape:(47217, 30) valid shape:(17353, 30) val-accuracy:0.6009911830807353
+Validation split question ids:[14 21 22 19 12  9 11] train shape:(51085, 30) valid shape:(13485, 30) val-accuracy:0.624768261030775
+Validation split question ids:[17  5 16  6  1 27 33] train shape:(54942, 30) valid shape:(9628, 30) val-accuracy:0.6658703780639801
+Validation split question ids:[ 7 23 15 20 31 34 30] train shape:(51911, 30) valid shape:(12659, 30) val-accuracy:0.6973694604629118
+Validation split question ids:[10 18  8 29 26 24 25] train shape:(53125, 30) valid shape:(11445, 30) val-accuracy:0.6627348186981215
+LogisticRegression	, scores:[0.60099118 0.62476826 0.66587038 0.69736946 0.66273482]	mean:0.6503468202673048
+--------------LogisticRegression training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.69      0.64      0.66      1343
+           2       0.33      0.27      0.29      1343
+           3       0.38      0.28      0.32      1343
+           4       0.55      0.83      0.66      1343
+
+    accuracy                           0.50      5372
+   macro avg       0.49      0.50      0.49      5372
+weighted avg       0.49      0.50      0.49      5372
+
+Running test for RandomForest
+Validation split question ids:[13  3  4  2 32  0 28] train shape:(47217, 30) valid shape:(17353, 30) val-accuracy:0.6035267677058722
+Validation split question ids:[14 21 22 19 12  9 11] train shape:(51085, 30) valid shape:(13485, 30) val-accuracy:0.6238042269187987
+Validation split question ids:[17  5 16  6  1 27 33] train shape:(54942, 30) valid shape:(9628, 30) val-accuracy:0.6736601578728708
+Validation split question ids:[ 7 23 15 20 31 34 30] train shape:(51911, 30) valid shape:(12659, 30) val-accuracy:0.7002922821707875
+Validation split question ids:[10 18  8 29 26 24 25] train shape:(53125, 30) valid shape:(11445, 30) val-accuracy:0.6663171690694627
+RandomForest	, scores:[0.60352677 0.62380423 0.67366016 0.70029228 0.66631717]	mean:0.6535201207475584
+--------------RandomForest training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.60      0.70      0.65      1343
+           2       0.36      0.33      0.34      1343
+           3       0.39      0.18      0.25      1343
+           4       0.58      0.85      0.69      1343
+
+    accuracy                           0.51      5372
+   macro avg       0.48      0.51      0.48      5372
+weighted avg       0.48      0.51      0.48      5372
+
+Running test for XGBoost
+Validation split question ids:[13  3  4  2 32  0 28] train shape:(47217, 30) valid shape:(17353, 30) val-accuracy:0.5979945830692099
+Validation split question ids:[14 21 22 19 12  9 11] train shape:(51085, 30) valid shape:(13485, 30) val-accuracy:0.6235817575083425
+Validation split question ids:[17  5 16  6  1 27 33] train shape:(54942, 30) valid shape:(9628, 30) val-accuracy:0.671271292064811
+Validation split question ids:[ 7 23 15 20 31 34 30] train shape:(51911, 30) valid shape:(12659, 30) val-accuracy:0.6986333833636148
+Validation split question ids:[10 18  8 29 26 24 25] train shape:(53125, 30) valid shape:(11445, 30) val-accuracy:0.6630843162953255
+XGBoost	, scores:[0.59799458 0.62358176 0.67127129 0.69863338 0.66308432]	mean:0.6509130664602607
+--------------XGBoost training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.58      0.71      0.64      1343
+           2       0.33      0.32      0.32      1343
+           3       0.32      0.14      0.19      1343
+           4       0.60      0.84      0.70      1343
+
+    accuracy                           0.50      5372
+   macro avg       0.46      0.50      0.46      5372
+weighted avg       0.46      0.50      0.46      5372
+
+Running test for SVM
+Validation split question ids:[13  3  4  2 32  0 28] train shape:(47217, 30) valid shape:(17353, 30) val-accuracy:0.5982827176857027
+Validation split question ids:[14 21 22 19 12  9 11] train shape:(51085, 30) valid shape:(13485, 30) val-accuracy:0.6237300704486466
+Validation split question ids:[17  5 16  6  1 27 33] train shape:(54942, 30) valid shape:(9628, 30) val-accuracy:0.6699210635646032
+Validation split question ids:[ 7 23 15 20 31 34 30] train shape:(51911, 30) valid shape:(12659, 30) val-accuracy:0.6948416146615056
+Validation split question ids:[10 18  8 29 26 24 25] train shape:(53125, 30) valid shape:(11445, 30) val-accuracy:0.6602009611183923
+SVM	, scores:[0.59828272 0.62373007 0.66992106 0.69484161 0.66020096]	mean:0.6493952854957701
+--------------SVM training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.60      0.64      0.62      1343
+           2       0.29      0.28      0.28      1343
+           3       0.29      0.17      0.22      1343
+           4       0.57      0.80      0.67      1343
+
+    accuracy                           0.47      5372
+   macro avg       0.44      0.47      0.45      5372
+weighted avg       0.44      0.47      0.45      5372
+
+--------------------
+RUNNING TESTS FOR ../../../data/annotations/melody_data4ML_3Cihan
+Cross-validation (on splits with respect to melody group)
+Running test for LogisticRegression
+Validation split question ids:[11 13 33 31  4 19] train shape:(58487, 30) valid shape:(9825, 30) val-accuracy:0.5646819338422392
+Validation split question ids:[21  6  8 17 10 25] train shape:(54265, 30) valid shape:(14047, 30) val-accuracy:0.5876699651171069
+Validation split question ids:[14 23  2 29 27 30] train shape:(59634, 30) valid shape:(8678, 30) val-accuracy:0.6668587232081125
+Validation split question ids:[32 12  3 22 24 15] train shape:(58426, 30) valid shape:(9886, 30) val-accuracy:0.5150718187335626
+Validation split question ids:[ 0 26 28  1  7 20] train shape:(50355, 30) valid shape:(17957, 30) val-accuracy:0.5068775407918917
+LogisticRegression	, scores:[0.56468193 0.58766997 0.66685872 0.51507182 0.50687754]	mean:0.5682319963385826
+--------------LogisticRegression training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.59      0.69      0.63      2414
+           2       0.43      0.34      0.38      2414
+           3       0.45      0.31      0.37      2414
+           4       0.58      0.80      0.67      2414
+
+    accuracy                           0.53      9656
+   macro avg       0.51      0.53      0.51      9656
+weighted avg       0.51      0.53      0.51      9656
+
+Running test for RandomForest
+Validation split question ids:[11 13 33 31  4 19] train shape:(58487, 30) valid shape:(9825, 30) val-accuracy:0.5635623409669211
+Validation split question ids:[21  6  8 17 10 25] train shape:(54265, 30) valid shape:(14047, 30) val-accuracy:0.5866733110272656
+Validation split question ids:[14 23  2 29 27 30] train shape:(59634, 30) valid shape:(8678, 30) val-accuracy:0.6590228163171238
+Validation split question ids:[32 12  3 22 24 15] train shape:(58426, 30) valid shape:(9886, 30) val-accuracy:0.5138579809832086
+Validation split question ids:[ 0 26 28  1  7 20] train shape:(50355, 30) valid shape:(17957, 30) val-accuracy:0.5130589742161831
+RandomForest	, scores:[0.56356234 0.58667331 0.65902282 0.51385798 0.51305897]	mean:0.5672350847021403
+--------------RandomForest training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.53      0.68      0.60      2414
+           2       0.40      0.42      0.41      2414
+           3       0.48      0.15      0.23      2414
+           4       0.61      0.81      0.69      2414
+
+    accuracy                           0.52      9656
+   macro avg       0.50      0.52      0.48      9656
+weighted avg       0.50      0.52      0.48      9656
+
+Running test for XGBoost
+Validation split question ids:[11 13 33 31  4 19] train shape:(58487, 30) valid shape:(9825, 30) val-accuracy:0.5648854961832062
+Validation split question ids:[21  6  8 17 10 25] train shape:(54265, 30) valid shape:(14047, 30) val-accuracy:0.586174983982345
+Validation split question ids:[14 23  2 29 27 30] train shape:(59634, 30) valid shape:(8678, 30) val-accuracy:0.6595989859414612
+Validation split question ids:[32 12  3 22 24 15] train shape:(58426, 30) valid shape:(9886, 30) val-accuracy:0.5082945579607526
+Validation split question ids:[ 0 26 28  1  7 20] train shape:(50355, 30) valid shape:(17957, 30) val-accuracy:0.5087152642423567
+XGBoost	, scores:[0.5648855  0.58617498 0.65959899 0.50829456 0.50871526]	mean:0.5655338576620244
+--------------XGBoost training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.52      0.68      0.59      2414
+           2       0.36      0.42      0.39      2414
+           3       0.45      0.12      0.19      2414
+           4       0.62      0.80      0.70      2414
+
+    accuracy                           0.51      9656
+   macro avg       0.49      0.51      0.47      9656
+weighted avg       0.49      0.51      0.47      9656
+
+Running test for SVM
+Validation split question ids:[11 13 33 31  4 19] train shape:(58487, 30) valid shape:(9825, 30) val-accuracy:0.5646819338422392
+Validation split question ids:[21  6  8 17 10 25] train shape:(54265, 30) valid shape:(14047, 30) val-accuracy:0.5836121591798961
+Validation split question ids:[14 23  2 29 27 30] train shape:(59634, 30) valid shape:(8678, 30) val-accuracy:0.6592532841668587
+Validation split question ids:[32 12  3 22 24 15] train shape:(58426, 30) valid shape:(9886, 30) val-accuracy:0.516690269067368
+Validation split question ids:[ 0 26 28  1  7 20] train shape:(50355, 30) valid shape:(17957, 30) val-accuracy:0.5081026897588684
+SVM	, scores:[0.56468193 0.58361216 0.65925328 0.51669027 0.50810269]	mean:0.566468067203046
+--------------SVM training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.52      0.63      0.57      2414
+           2       0.35      0.36      0.35      2414
+           3       0.43      0.20      0.27      2414
+           4       0.60      0.78      0.68      2414
+
+    accuracy                           0.49      9656
+   macro avg       0.48      0.49      0.47      9656
+weighted avg       0.48      0.49      0.47      9656
+
+--------------------
+RUNNING TESTS FOR ../../../data/annotations/melody_data4ML_1Asli
+Cross-validation (on splits with respect to melody group)
+Running test for LogisticRegression
+Validation split question ids:[33 31 15 29  1 27  4] train shape:(51831, 30) valid shape:(15563, 30) val-accuracy:0.5469382509798882
+Validation split question ids:[24  6 17 19 13 10  8] train shape:(56999, 30) valid shape:(10395, 30) val-accuracy:0.604040404040404
+Validation split question ids:[21 16 14 32 34 20 12] train shape:(57160, 30) valid shape:(10234, 30) val-accuracy:0.5798319327731093
+Validation split question ids:[11  7 22  9 23 28  0] train shape:(48488, 30) valid shape:(18906, 30) val-accuracy:0.63344969850841
+Validation split question ids:[30  2  5 18 26  3 25] train shape:(55098, 30) valid shape:(12296, 30) val-accuracy:0.6763988288874431
+LogisticRegression	, scores:[0.54693825 0.6040404  0.57983193 0.6334497  0.67639883]	mean:0.6081318230378508
+--------------LogisticRegression training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.80      0.68      0.73      2739
+           2       0.53      0.48      0.50      2739
+           3       0.48      0.38      0.42      2739
+           4       0.61      0.89      0.72      2739
+
+    accuracy                           0.61     10956
+   macro avg       0.60      0.61      0.59     10956
+weighted avg       0.60      0.61      0.59     10956
+
+Running test for RandomForest
+Validation split question ids:[33 31 15 29  1 27  4] train shape:(51831, 30) valid shape:(15563, 30) val-accuracy:0.550729293837949
+Validation split question ids:[24  6 17 19 13 10  8] train shape:(56999, 30) valid shape:(10395, 30) val-accuracy:0.6086580086580087
+Validation split question ids:[21 16 14 32 34 20 12] train shape:(57160, 30) valid shape:(10234, 30) val-accuracy:0.5856947430134845
+Validation split question ids:[11  7 22  9 23 28  0] train shape:(48488, 30) valid shape:(18906, 30) val-accuracy:0.6287421982439437
+Validation split question ids:[30  2  5 18 26  3 25] train shape:(55098, 30) valid shape:(12296, 30) val-accuracy:0.679733246584255
+RandomForest	, scores:[0.55072929 0.60865801 0.58569474 0.6287422  0.67973325]	mean:0.6107114980675281
+--------------RandomForest training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.78      0.72      0.75      2739
+           2       0.46      0.53      0.49      2739
+           3       0.50      0.27      0.35      2739
+           4       0.63      0.88      0.74      2739
+
+    accuracy                           0.60     10956
+   macro avg       0.59      0.60      0.58     10956
+weighted avg       0.59      0.60      0.58     10956
+
+Running test for XGBoost
+Validation split question ids:[33 31 15 29  1 27  4] train shape:(51831, 30) valid shape:(15563, 30) val-accuracy:0.5478378204716314
+Validation split question ids:[24  6 17 19 13 10  8] train shape:(56999, 30) valid shape:(10395, 30) val-accuracy:0.6068302068302068
+Validation split question ids:[21 16 14 32 34 20 12] train shape:(57160, 30) valid shape:(10234, 30) val-accuracy:0.5819816298612468
+Validation split question ids:[11  7 22  9 23 28  0] train shape:(48488, 30) valid shape:(18906, 30) val-accuracy:0.6341373109065905
+Validation split question ids:[30  2  5 18 26  3 25] train shape:(55098, 30) valid shape:(12296, 30) val-accuracy:0.6728204294079375
+XGBoost	, scores:[0.54783782 0.60683021 0.58198163 0.63413731 0.67282043]	mean:0.6087214794955226
+--------------XGBoost training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.74      0.68      0.71      2739
+           2       0.42      0.52      0.47      2739
+           3       0.49      0.19      0.28      2739
+           4       0.63      0.91      0.74      2739
+
+    accuracy                           0.58     10956
+   macro avg       0.57      0.58      0.55     10956
+weighted avg       0.57      0.58      0.55     10956
+
+Running test for SVM
+Validation split question ids:[33 31 15 29  1 27  4] train shape:(51831, 30) valid shape:(15563, 30) val-accuracy:0.5467454860888004
+Validation split question ids:[24  6 17 19 13 10  8] train shape:(56999, 30) valid shape:(10395, 30) val-accuracy:0.6128908128908129
+Validation split question ids:[21 16 14 32 34 20 12] train shape:(57160, 30) valid shape:(10234, 30) val-accuracy:0.5759233926128591
+Validation split question ids:[11  7 22  9 23 28  0] train shape:(48488, 30) valid shape:(18906, 30) val-accuracy:0.6290066645509362
+Validation split question ids:[30  2  5 18 26  3 25] train shape:(55098, 30) valid shape:(12296, 30) val-accuracy:0.6762361743656473
+SVM	, scores:[0.54674549 0.61289081 0.57592339 0.62900666 0.67623617]	mean:0.6081605061018113
+--------------SVM training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.75      0.65      0.69      2739
+           2       0.42      0.46      0.44      2739
+           3       0.41      0.28      0.33      2739
+           4       0.63      0.86      0.72      2739
+
+    accuracy                           0.56     10956
+   macro avg       0.55      0.56      0.55     10956
+weighted avg       0.55      0.56      0.55     10956
+
+--------------------
+RUNNING TESTS FOR ../../../data/annotations/melody_data4ML_5Ozan
+Cross-validation (on splits with respect to melody group)
+Running test for LogisticRegression
+Validation split question ids:[23  9 17  7 21 19] train shape:(59874, 30) valid shape:(10734, 30) val-accuracy:0.5738773989193218
+Validation split question ids:[10  0 25  4  6 26] train shape:(56134, 30) valid shape:(14474, 30) val-accuracy:0.6221500621804615
+Validation split question ids:[28 16  2 30 15 13] train shape:(59789, 30) valid shape:(10819, 30) val-accuracy:0.6027359275348924
+Validation split question ids:[32 33  5 24 29  3] train shape:(57589, 30) valid shape:(13019, 30) val-accuracy:0.5073354328289423
+Validation split question ids:[27 20  8 22  1 11] train shape:(54827, 30) valid shape:(15781, 30) val-accuracy:0.5366580064634687
+LogisticRegression	, scores:[0.5738774  0.62215006 0.60273593 0.50733543 0.53665801]	mean:0.5685513655854173
+--------------LogisticRegression training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.66      0.75      0.70      1580
+           2       0.46      0.36      0.40      1580
+           3       0.40      0.35      0.37      1580
+           4       0.58      0.71      0.64      1580
+
+    accuracy                           0.54      6320
+   macro avg       0.53      0.54      0.53      6320
+weighted avg       0.53      0.54      0.53      6320
+
+Running test for RandomForest
+Validation split question ids:[23  9 17  7 21 19] train shape:(59874, 30) valid shape:(10734, 30) val-accuracy:0.5669834171790572
+Validation split question ids:[10  0 25  4  6 26] train shape:(56134, 30) valid shape:(14474, 30) val-accuracy:0.6218046151720326
+Validation split question ids:[28 16  2 30 15 13] train shape:(59789, 30) valid shape:(10819, 30) val-accuracy:0.5993160181162769
+Validation split question ids:[32 33  5 24 29  3] train shape:(57589, 30) valid shape:(13019, 30) val-accuracy:0.5055687840847991
+Validation split question ids:[27 20  8 22  1 11] train shape:(54827, 30) valid shape:(15781, 30) val-accuracy:0.5438185159368861
+RandomForest	, scores:[0.56698342 0.62180462 0.59931602 0.50556878 0.54381852]	mean:0.5674982700978104
+--------------RandomForest training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.64      0.86      0.73      1580
+           2       0.45      0.38      0.42      1580
+           3       0.38      0.27      0.32      1580
+           4       0.59      0.64      0.61      1580
+
+    accuracy                           0.54      6320
+   macro avg       0.51      0.54      0.52      6320
+weighted avg       0.51      0.54      0.52      6320
+
+Running test for XGBoost
+Validation split question ids:[23  9 17  7 21 19] train shape:(59874, 30) valid shape:(10734, 30) val-accuracy:0.5697782746413266
+Validation split question ids:[10  0 25  4  6 26] train shape:(56134, 30) valid shape:(14474, 30) val-accuracy:0.6237391184192345
+Validation split question ids:[28 16  2 30 15 13] train shape:(59789, 30) valid shape:(10819, 30) val-accuracy:0.6014419077548757
+Validation split question ids:[32 33  5 24 29  3] train shape:(57589, 30) valid shape:(13019, 30) val-accuracy:0.508641216683309
+Validation split question ids:[27 20  8 22  1 11] train shape:(54827, 30) valid shape:(15781, 30) val-accuracy:0.5402699448704138
+XGBoost	, scores:[0.56977827 0.62373912 0.60144191 0.50864122 0.54026994]	mean:0.5687740924738318
+--------------XGBoost training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.56      0.83      0.67      1580
+           2       0.40      0.31      0.35      1580
+           3       0.35      0.26      0.29      1580
+           4       0.60      0.61      0.61      1580
+
+    accuracy                           0.50      6320
+   macro avg       0.48      0.50      0.48      6320
+weighted avg       0.48      0.50      0.48      6320
+
+Running test for SVM
+Validation split question ids:[23  9 17  7 21 19] train shape:(59874, 30) valid shape:(10734, 30) val-accuracy:0.5734115893422769
+Validation split question ids:[10  0 25  4  6 26] train shape:(56134, 30) valid shape:(14474, 30) val-accuracy:0.6199392013265165
+Validation split question ids:[28 16  2 30 15 13] train shape:(59789, 30) valid shape:(10819, 30) val-accuracy:0.5942323689804972
+Validation split question ids:[32 33  5 24 29  3] train shape:(57589, 30) valid shape:(13019, 30) val-accuracy:0.5061064597895384
+Validation split question ids:[27 20  8 22  1 11] train shape:(54827, 30) valid shape:(15781, 30) val-accuracy:0.5351371902921235
+SVM	, scores:[0.57341159 0.6199392  0.59423237 0.50610646 0.53513719]	mean:0.5657653619461904
+--------------SVM training an all train-data and testing on test data --------------
+              precision    recall  f1-score   support
+
+           1       0.62      0.75      0.68      1580
+           2       0.44      0.42      0.43      1580
+           3       0.37      0.29      0.33      1580
+           4       0.59      0.62      0.61      1580
+
+    accuracy                           0.52      6320
+   macro avg       0.51      0.52      0.51      6320
+weighted avg       0.51      0.52      0.51      6320
+

@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+         1.0       0.93      0.59      0.72       413
+         2.0       0.28      0.66      0.39       126
+         3.0       0.54      0.46      0.50       170
+         4.0       0.89      0.91      0.90       306
+
+    accuracy                           0.67      1015
+   macro avg       0.66      0.65      0.63      1015
+weighted avg       0.77      0.67      0.70      1015
+Krippendorff's Alpha:0.5505265699808212
+Cohen's Kappa:0.5581989937767878
+MAE on data Aslı-Son vs Aslı-İlk: 0.3556650246305419

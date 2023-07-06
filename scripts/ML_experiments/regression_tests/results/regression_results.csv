@@ -1,0 +1,25 @@
+,Data,Model,MAE,MAE_rounded,Accuracy,F1_weighted
+0,../../../data/annotations/melody_data4ML_2Asli,Linear regression,0.64,0.62,0.41,0.40
+1,../../../data/annotations/melody_data4ML_2Asli,Random forest,0.53,0.49,0.56,0.57
+2,../../../data/annotations/melody_data4ML_2Asli,XGBoost,0.55,0.50,0.55,0.56
+3,../../../data/annotations/melody_data4ML_2Asli,Adaboost,0.69,0.69,0.32,0.25
+4,../../../data/annotations/melody_data4ML_4Cihan,Linear regression,0.68,0.65,0.42,0.36
+5,../../../data/annotations/melody_data4ML_4Cihan,Random forest,0.58,0.55,0.52,0.53
+6,../../../data/annotations/melody_data4ML_4Cihan,XGBoost,0.61,0.57,0.50,0.50
+7,../../../data/annotations/melody_data4ML_4Cihan,Adaboost,0.70,0.67,0.38,0.30
+8,../../../data/annotations/melody_data4ML_majority,Linear regression,0.69,0.67,0.39,0.35
+9,../../../data/annotations/melody_data4ML_majority,Random forest,0.62,0.59,0.49,0.51
+10,../../../data/annotations/melody_data4ML_majority,XGBoost,0.64,0.60,0.48,0.49
+11,../../../data/annotations/melody_data4ML_majority,Adaboost,0.73,0.70,0.34,0.26
+12,../../../data/annotations/melody_data4ML_3Cihan,Linear regression,0.65,0.61,0.45,0.42
+13,../../../data/annotations/melody_data4ML_3Cihan,Random forest,0.61,0.57,0.50,0.51
+14,../../../data/annotations/melody_data4ML_3Cihan,XGBoost,0.63,0.59,0.49,0.50
+15,../../../data/annotations/melody_data4ML_3Cihan,Adaboost,0.68,0.64,0.42,0.36
+16,../../../data/annotations/melody_data4ML_1Asli,Linear regression,0.61,0.60,0.44,0.43
+17,../../../data/annotations/melody_data4ML_1Asli,Random forest,0.51,0.44,0.60,0.61
+18,../../../data/annotations/melody_data4ML_1Asli,XGBoost,0.52,0.45,0.59,0.60
+19,../../../data/annotations/melody_data4ML_1Asli,Adaboost,0.67,0.66,0.38,0.30
+20,../../../data/annotations/melody_data4ML_5Ozan,Linear regression,0.68,0.65,0.41,0.37
+21,../../../data/annotations/melody_data4ML_5Ozan,Random forest,0.60,0.57,0.48,0.49
+22,../../../data/annotations/melody_data4ML_5Ozan,XGBoost,0.61,0.56,0.51,0.51
+23,../../../data/annotations/melody_data4ML_5Ozan,Adaboost,0.67,0.67,0.37,0.29
